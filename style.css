@@ -1,0 +1,224 @@
+/* RESET */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #00c3ff;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #00c3ff;
+}
+/* ABOUT SECTION */
+.about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: 10px auto;
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+}
+/* SKILLS SECTION */
+.skills {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.skills h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Skill container */
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Individual skill box */
+.skill {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* PROJECTS SECTION */
+.projects {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.projects h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Project container */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual project card */
+.project {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+/* Project link */
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    color: #00c3ff;
+}
+/* CONTACT SECTION */
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Form styling */
+.contact form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Inputs */
+.contact input,
+.contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+.contact button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact button:hover {
+    background-color: #00c3ff;
+}
+/* FOOTER */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Social links */
+.socials {
+    margin-top: 10px;
+}
+
+.socials a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    color: #00c3ff;
+}
