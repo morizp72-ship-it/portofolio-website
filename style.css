@@ -57,6 +57,25 @@ nav ul li a:hover {
     color: #555;
     margin-bottom: 20px;
 }
+.hero {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: #00bcd4;
+  color: white;
+  text-decoration: none;
+}
+
+.hero a:hover {
+  background: #0097a7;
+}
 
 /* BUTTON */
 .btn {
@@ -301,4 +320,29 @@ section {
 
 h2 {
   color: #333;
+}
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .hero {
+    padding: 50px 15px;
+  }
+
+  section {
+    padding: 20px 15px;
+  }
+
 }
