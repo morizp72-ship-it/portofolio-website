@@ -121,10 +121,25 @@
     <p>You can reach me using the form below:</p>
 
     <form>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Send Message</button>
+        <form name="contact" method="POST" data-netlify="true">
+  
+  <input type="hidden" name="form-name" value="contact">
+
+  <label>Name:</label><br>
+  <input type="text" name="name"><br><br>
+
+  <label>Email:</label><br>
+  <input type="email" name="email"><br><br>
+
+  <label>Message:</label><br>
+  <textarea name="message"></textarea><br><br>
+
+  <button type="submit">Send</button>
+
+</form>
+        
+        
+        
     </form>
 </section>
         
